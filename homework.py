@@ -1,10 +1,9 @@
 #Name:  Shifan Chen
 #Email:  SHIFAN.CHEN25@myhunter.cuny.edu
-#Date: Septmeber 17, 2024
-#This programs takes user input and prints it in in original, upper, and lower format.
+#Date: Septmeber 20, 2024
+#This program prints input string in ASCII format.
 
-String = input('Enter a message: ')
+String = str(input('Enter a phrase: '))
 
-print(String)
-print(String.upper())
-print(String.lower())
+for i in String:
+    print(ord(i))
